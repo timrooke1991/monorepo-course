@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { IChannel, IMessage, ITeam } from "./types";
-// Add
+
 /**
  * Check whether a given value is an array where
  * each member is of a specified type
