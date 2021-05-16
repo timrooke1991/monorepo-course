@@ -37,6 +37,9 @@
     "rimraf": "^3.0.2",
     "scripty": "^2.0.0"
   },
+  "resolutions": {
+    "**/@types/react": "16.9.52"
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"

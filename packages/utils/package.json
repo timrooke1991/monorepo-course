@@ -1,6 +1,6 @@
 {
   "name": "@shlack/utils",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -24,7 +24,7 @@
     "@babel/preset-typescript": "^7.13.0",
     "@types/date-fns": "^2.6.0",
     "@types/jest": "^26.0.23",
-    "@types/react": "^17.0.5",
+    "@types/react": "^16.9.52",
     "jest": "^26.6.3"
   }
 }
