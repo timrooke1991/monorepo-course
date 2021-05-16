@@ -5,10 +5,6 @@
  *
  * `@shlack/types` is a package containing broadly-useful
  * types and type guards for our demo slack app. This is part of Mike's
- * <b>JS & TS Monorepos Course</b> which you can learn more about by visiting
- * <a href="https://github.com/mike-north/js-ts-monorepos/" target="_blank">
- *  the repo on GitHub
- * </a>
  *
  * If you want to watch a recorded video of this course, look for it
  * on <a href="https://frontendmasters.com" target="_blank">FrontEnd Masters</a>
