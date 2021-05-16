@@ -5,6 +5,12 @@
       "path": "./types"
     },
     {
+      "path": "./data"
+    },
+    {
+      "path": "./ui"
+    },
+    {
       "path": "./utils"
     }
   ]
