@@ -1,8 +1,6 @@
 /**
  * @packageDocumentation
  *
- * <img src="https://placecorgi.herokuapp.com/300/250" align="right" />
- *
  * <h3>Why does this library exist?</h3>
  *
  * `@shlack/types` is a package containing broadly-useful
@@ -14,7 +12,6 @@
  *
  * If you want to watch a recorded video of this course, look for it
  * on <a href="https://frontendmasters.com" target="_blank">FrontEnd Masters</a>
- *
  *
  * @remarks
  * All interfaces are prefixed with `I`
