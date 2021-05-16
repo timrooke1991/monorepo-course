@@ -55,7 +55,7 @@ To configure husky, add the following the root level `package.json`. With this, 
 
 Once done, run `yarn install`.
 
-
+https://www.adaltas.com/en/tag/monorepo/
 
 ---
 
