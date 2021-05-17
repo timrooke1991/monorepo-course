@@ -7,6 +7,7 @@
     "access": "public"
   },
   "scripts": {
+    "api-report": "scripty",
     "lint": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
     "build": "scripty",
@@ -21,5 +22,9 @@
   },
   "scripty": {
     "path": "../../scripts/packages"
+  },
+  "dependencies": {
+    "@shlack/types": "^1.1.0",
+    "@shlack/utils": "^1.0.1"
   }
 }

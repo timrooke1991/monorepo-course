@@ -18,14 +18,6 @@ There's a `scripts` folder in [`COURSE_FILES/06-scripty`](../COURSE_FILES/06-scr
 
 > **These are `sh` scripts that can be run in any POSIX environment, so if you use windows, you'll need [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (recommended) or [Cigwyn](https://www.cygwin.com/) (if you're desperate).**
 
-Scripty can run any scripts - even node scripts like:
-
-```
-#!/usr/bin/env node
-
-console.log('Great job! 👍');
-```
-
 You'll need to make these scripts _executable_
 
 ```
@@ -68,7 +60,6 @@ and each package's `package.json` with
   },
 + "scripty": {
 +   "path": "../../scripts/packages"
-+ }
 ```
 
 Look through everything in the `scripts/` folder -- nothing should be all that surprising in there.
@@ -82,7 +73,7 @@ yarn lint   # Lint *all* packages
 yarn clean  # Clean *everything*
 ```
 
-All with centrally defined scripts that are applied to _each package_. This helps centralise how we manage our packages and repositories. If you have 100 packages, you could still only have a handfull of scripts to manage. 
+All with centrally defined scripts that are applied to _each package_.
 
 ---
 

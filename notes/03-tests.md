@@ -56,7 +56,7 @@ and see your tests run.
 Add a new "scripts" entry to each package's `package.json`, so that we can just run `yarn test` on any package and it'll do _whatever testing means for that package_.
 
 ````diff
-
+```diff
 @@ -7,6 +7,7 @@
      "access": "public"
    },

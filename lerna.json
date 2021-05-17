@@ -1,16 +1,7 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "command": {
-    "publish": {
-      "registry": "http://localhost:4873/"
-    }
-  },
+  "packages": ["packages/*"],
   "npmClient": "yarn",
   "version": "independent",
   "useWorkspaces": true,
-  "nohoist": [
-    "parcel-bundler"
-  ]
+  "nohoist": ["parcel-bundler"]
 }

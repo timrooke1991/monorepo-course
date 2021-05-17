@@ -13,8 +13,6 @@ to understand JS, TS, TSX and JSX equally well.
 
 In your [`COURSE_FILES/04-linting`](../COURSE_FILES/04-linting) folder, you should find an `.eslintrc` file. Copy it to the root of the project.
 
-**Why root?** VSCode and code editors expect the eslintrc to be at the root of the workspace, and it's not worth trying to fight against this. For similar reasons (namely the ecosystem packages, editors, coventions just assume this to be the case and the flexibility doesn't yet exist to workaround these requirements), `eslint` will be installed in the root of the workspace. 
-
 We'll have to install `eslint` and a few plugins now. We install these at the _workspace_ level.
 
 ```
